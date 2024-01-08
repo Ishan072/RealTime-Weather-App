@@ -1,4 +1,4 @@
-const API_KEY = "ccebaf29d9573f2fa3baade304d4fb80";
+const API_KEY = "";
 let selectedCityText;
 let selectedCity;
 
@@ -208,16 +208,3 @@ document.addEventListener("DOMContentLoaded", async () => {
 })
 
 // ccebaf29d9573f2fa3baade304d4fb80
-
-
-/*
-varslinid:=Concat["slimid:_DEFAULT:_DEFAULT:exact:", GetAttributeValue["_DEFAULT","_DEFAULT","slimid"]];
-varsegments:=GetEntityIds["ANDACROSS","item","self:self",varslinid]; variterateentityenddate:=""; 
-varhasError:="true"; varcienddate:=GetAttributeValue["_DEFAULT","_DEFAULT","cienddate"]; 
-IIF[IsNullOrEmpty[varsegments]=false, ITERATE[varsegments,'SetVariable["variterateentityenddate", 
-GetEntityAttributeValueById["_DEFAULT","_DEFAULT",ITERATIONITEM,"item","itembasicenddate"]] AND I
-IF[IsNullOrEmpty[variterateentityenddate]=false AND IsNullOrEmpty[varcienddate]=false AND varhasError="true" AND 
-variterateentityenddate>=varcienddate, SetVariable["varhasError","false"] ,false]',false] ,false] AND 
-IIF[varhasError="true", AddAttributeError["_DEFAULT","_DEFAULT","GEN001","Control Item End Date cannot be greater than basic item end date","cienddate"], 
-AddAttributeInformation["_DEFAULT","_DEFAULT","SYS001","","cienddate"]]
-*/
