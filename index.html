@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <input type="search" list="cities" placeholder="Enter the City Name" id="search" name="search">
+        <datalist id="cities">
+            <!-- <option value="Pune"></option>
+            <option value="Bangalore"></option>
+            <option value="Mumbai"></option>
+            <option value="Chennai"></option>
+            <option value="Srinagar"></option>
+            <option value="Lucknow"></option>
+            <option value="Kolkata"></option> -->
+        </datalist>
+        <article id="current-forecast">
+            <h1 class="city">--</h1>
+            <p class="temp">--</p>
+            <p class="description">--</p>
+            <p class="min-max-temp">-- --</p>
+        </article>
+        <article id="hourly-forecast">
+            <h1>Hourly Forecast</h1>
+            <section class="hourly-container">
+                <!-- <article > 
+                    <h2 class = 'time'>Now</h2>
+                    <img class= "icon" src="" alt="" />icon
+                    <p class = " hourly-temp">temp</p>
+                </article> -->
+            </section>
+        </article>
+        <article id="five-day-forecast">
+            <h1>5 Day Forecast</h1>
+            <section class="five-day-forecast-container">
+                <!-- <article class="day-wise-forecast">
+                    <h3>Today</h3>
+                    <img class="icon" src="" alt="Error" />
+                    <p class = "min-temp">Low</p>
+                    <p class = "max-temp">High</p>
+                </article>
+                <article class="day-wise-forecast">
+                    <h3>Tues</h3>
+                    <img src="" alt="Error" />
+                    <p class = "min-temp">Low</p>
+                    <p class = "max-temp">High</p>
+                </article> -->
+            </section>
+        </article>
+        <article id="feel-like">
+            <h2>Feels Like</h2>
+            <p class="feel-like-temp">--</p>
+        </article>
+        <article id="humidity">
+            <h2>Humidity</h2>
+            <p class="humidity-value">--</p>
+        </article>
+    </main>
+</body>
+</html>
