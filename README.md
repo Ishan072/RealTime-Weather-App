@@ -2,3 +2,4 @@ A real time Weather App which gives to weather forecast of Current time as well 
 Allow the location permission to get the weather forcast of your location.
 You can also search other places and can get the weather forecast.
 It also gives you information about the humidity and how ir really feels.
+![Screenshot (447)](https://github.com/Ishan072/RealTime-Weather-App/assets/84572741/73567830-2d20-4cb6-aa25-8c4fdc642df1)
